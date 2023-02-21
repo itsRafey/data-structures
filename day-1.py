@@ -19,3 +19,16 @@ while i < len(arr): # to print length of array
  
     print(arr[i])
     i += 1
+
+
+arr = [ 10,11,12,13] 
+
+# range syntex ( start, end, step  ) 
+for i in range( len(arr)):
+    print("answer is ",arr[i])
+
+for i in range(2,len(arr)):
+    print(arr[i])
+
+for i in range(1,len(arr) ,2):
+    print(arr[i])
