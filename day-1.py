@@ -1,6 +1,7 @@
 # insert
 arr = [1,2,3,4,5]
 
+# adding value at end in array
 arr.append(6)
 print(arr)
 # specified index
@@ -15,7 +16,7 @@ print(arr)
 
 arr = [6,7,8,9,0]
 i = 1
-while i < len(arr): # to print length of array
+while i < len(arr): # to print array
  
     print(arr[i])
     i += 1
@@ -32,3 +33,5 @@ for i in range(2,len(arr)):
 
 for i in range(1,len(arr) ,2):
     print(arr[i])
+
+
