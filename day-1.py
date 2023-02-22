@@ -4,6 +4,7 @@ arr = [1,2,3,4,5]
 # adding value at end in array
 arr.append(6)
 print(arr)
+
 # specified index
 arr.insert(3,7)
 print(arr)
